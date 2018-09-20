@@ -7,7 +7,6 @@ To start the app use
 ```
 npm start
 ```
-
-![Super Cool Logo](https://imgur.com/PD5cpEn)
+![](https://i.imgur.com/PD5cpEn.png)
 
 
