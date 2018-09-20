@@ -9,8 +9,9 @@ npm start
 ```
 # This project is powered by:
 
-*Electron
-*Node.js
+* Electron
+
+* Node.js
 
 
 ![](https://i.imgur.com/PD5cpEn.png)
