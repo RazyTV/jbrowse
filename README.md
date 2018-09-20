@@ -1,5 +1,5 @@
-**# jbrowse
-Well, a stupid browser i made when i was bored. Pretty simple. Hard To make.
+# jbrowse
+Well, a stupid browser I made when I was bored. *Pretty simple. Hard To make.*
 
 ## How to use this thing
 
@@ -13,7 +13,10 @@ npm start
 
 * Node.js
 
+# My cool logo
 
 ![](https://i.imgur.com/PD5cpEn.png)
+
+> Cool isn't it?
 
 
