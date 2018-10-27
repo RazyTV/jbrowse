@@ -7,6 +7,11 @@ To start the app use
 ```
 npm start
 ```
+
+You need to install electron so run
+```
+npm install electron
+```
 # This project is powered by:
 
 * Electron
