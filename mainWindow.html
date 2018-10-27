@@ -1,36 +1,31 @@
 <!DOCTYPE html>
-<script type="text/javascript">
-const {ipcRenderer} = require('electron')
-
-ipcRenderer.on('main-reply', (event, arg) => {
-    console.log(arg)
-  })
-
-ipcRenderer.send('renderer-message', 'ping')
-
-</script>
+ <!-- HTML, CSS & MADE BY ME (RAYZTV) -->
+ <!-- Very simple. Super Cool. I don't know what to add. please help -->
+ <!-- May have some bugs but i will fix them. remember this was made by a teenager -->
+ <!-- Today is 26/10/2018. I'm very happy :) -->
+ 
 <html>
 
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link onload="" rel="stylesheet" href="css/custom.css">  <!-- Browser Custom css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  <!-- Loads FA Icons Stylesheet -->
 
-<link onload="" rel="stylesheet" href="css/custom.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<div class="customdiv" >
-
-  <button onclick="refresh()"><i class="fa fa-refresh"></i></button>
-  <input onKeyDown="if(event.keyCode==13) searchThis();" placeholder="Buscador ~ Google" type="text"  id="serarchGoogle" name="" >
-  <button onclick="goBacc()">◄</button>
-<button onclick="goForr()">►</button>
-
+<div class="customdiv"> <!-- This div adds some margin to the search buttons. -->
+  <button onclick="refresh()"><i class="fa fa-refresh"></i></button>  <!-- Refresh button. It uses font awesome refresh icon. -->
+  <input onKeyDown="if(event.keyCode==13) searchThis();" placeholder="Search ~ Google" type="text"  id="serarchGoogle" name="" > <!-- Search bar. It detects if enter is being pressed -->  <!-- DuckDuckGo sucks...   jk -->
+  <button onclick="goBacc()">◄</button> <!-- BUTTONS -->
+<button onclick="goForr()">►</button> <!-- bUTTONS --> 
 </div>
 
-<webview id="bienC5" preload="./crab.js" onload="getTitle3()" src="https://google.com" autosize="on" style="min-width:1100; min-height:797px"></webview>
+<webview id="bienC5" preload="./crab.js" onload="getTitle3()" src="https://google.com" autosize="on" style="min-width:1100; min-height:797px"></webview>  <!-- well this is the webviewer -->
+
 
 </html>
 
-<script src="scripts/functions.js" charset="utf-8"></script>
 
+<script src="scripts/functions.js" charset="utf-8"></script>  <!-- Load scripts -->
 <script>
-  console.log("Loaded! You can now use the browser")
+  console.log("Loaded! You can now use the browser") // idk 
+  //hello human
 </script>
