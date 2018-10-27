@@ -1,0 +1,21 @@
+{
+  "name": "jbrowse",
+  "version": "0.0.2",
+  "description": "A super cool web browserrr!!1!1!!",
+  "main": "main2.js",
+  "dependencies": {
+    "electron": "^2.0.10",
+    "electron-packager": "^12.1.2",
+    "jquery": "^3.3.1",
+    "mongodb": "^3.1.6",
+    "mongoose": "^5.3.0",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo hello",
+    "start": "electron ."
+  },
+  "author": "RayzTV",
+  "license": "MIT"
+}
